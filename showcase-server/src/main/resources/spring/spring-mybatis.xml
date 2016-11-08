@@ -47,4 +47,10 @@
 		<property name="mapperLocations" value="classpath:/mybatis/mapper/**/*.xml"/>
 		<property name="typeAliasesPackage" value="com.demo.showcase.commons.entity" />
 	</bean>
+	
+	<!-- 扫描basePackage下所有以@MyBatisRepository标识的 接口-->
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="com.demo.showcase.dao" />
+		<property name="annotationClass" value="com.demo.showcase.framework.mybatis.MyBatisMapper"/>
+	</bean>
 </beans>
