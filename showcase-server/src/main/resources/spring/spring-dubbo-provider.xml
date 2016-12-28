@@ -21,5 +21,5 @@
 	<dubbo:provider loadbalance="leastactive" retries="0" timeout="15000"/>
 	
 	<!-- 声明需要暴露的服务接口 -->
-	<dubbo:service interface="com.demo.showcase.commons.service.UserService" ref="userService"/>
+	<dubbo:service interface="com.showcase.commons.service.UserService" ref="userService"/>
 </beans>

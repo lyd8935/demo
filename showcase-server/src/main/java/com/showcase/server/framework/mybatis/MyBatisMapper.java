@@ -1,4 +1,4 @@
-package com.demo.showcase.server.framework.mybatis;
+package com.showcase.server.framework.mybatis;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

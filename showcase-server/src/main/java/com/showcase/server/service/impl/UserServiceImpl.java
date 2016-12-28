@@ -1,17 +1,17 @@
-package com.demo.showcase.server.service.impl;
+package com.showcase.server.service.impl;
 
 import java.time.LocalDateTime;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.demo.showcase.commons.entity.User;
-import com.demo.showcase.commons.option.UserQueryOption;
-import com.demo.showcase.commons.page.DataPage;
-import com.demo.showcase.commons.result.ModelResult;
-import com.demo.showcase.commons.result.PageResult;
-import com.demo.showcase.commons.service.UserService;
-import com.demo.showcase.server.manager.UserManager;
+import com.showcase.commons.entity.User;
+import com.showcase.commons.option.UserQueryOption;
+import com.showcase.commons.page.DataPage;
+import com.showcase.commons.result.ModelResult;
+import com.showcase.commons.result.PageResult;
+import com.showcase.commons.service.UserService;
+import com.showcase.server.manager.UserManager;
 
 @Component("userService")
 public class UserServiceImpl implements UserService {

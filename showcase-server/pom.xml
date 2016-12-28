@@ -3,8 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.demo</groupId>
-		<artifactId>demo-parent</artifactId>
+		<groupId>com.showcase</groupId>
+		<artifactId>showcase-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
@@ -14,7 +14,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.demo.showcase</groupId>
+			<groupId>com.showcase</groupId>
 			<artifactId>showcase-commons</artifactId>
 		</dependency>
 	

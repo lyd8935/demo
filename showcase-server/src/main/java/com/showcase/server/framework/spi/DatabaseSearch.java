@@ -1,4 +1,4 @@
-package com.demo.showcase.server.framework.spi;
+package com.showcase.server.framework.spi;
 
 import java.util.List;
 
