@@ -1,4 +1,4 @@
-package com.demo.showcase.commons.utils;
+package com.showcase.commons.utils;
 
 import java.security.SecureRandom;
 import javax.crypto.spec.PBEKeySpec;

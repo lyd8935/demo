@@ -1,4 +1,4 @@
-package com.demo.showcase.commons.result;
+package com.showcase.commons.result;
 
 import java.io.Serializable;
 

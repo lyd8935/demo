@@ -1,6 +1,6 @@
-package com.demo.showcase.commons.result;
+package com.showcase.commons.result;
 
-import com.demo.showcase.commons.page.DataPage;
+import com.showcase.commons.page.DataPage;
 
 public class PageResult<T> extends BaseResult{
 	private static final long serialVersionUID = -8327364438264898151L;

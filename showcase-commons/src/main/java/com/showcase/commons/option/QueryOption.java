@@ -1,4 +1,4 @@
-package com.demo.showcase.commons.option;
+package com.showcase.commons.option;
 
 import java.io.Serializable;
 

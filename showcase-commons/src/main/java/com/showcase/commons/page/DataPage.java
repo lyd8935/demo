@@ -1,4 +1,4 @@
-package com.demo.showcase.commons.page;
+package com.showcase.commons.page;
 
 import java.io.Serializable;
 import java.util.List;

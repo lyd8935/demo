@@ -1,4 +1,4 @@
-package com.demo.showcase.commons.result;
+package com.showcase.commons.result;
 
 public class ModelResult<T> extends BaseResult{
 	private static final long serialVersionUID = -81997620726026010L;

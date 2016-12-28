@@ -1,7 +1,7 @@
-package com.demo.showcase.commons.service;
+package com.showcase.commons.service;
 
-import com.demo.showcase.commons.entity.User;
-import com.demo.showcase.commons.result.ModelResult;
+import com.showcase.commons.entity.User;
+import com.showcase.commons.result.ModelResult;
 
 public interface UserService {
 	

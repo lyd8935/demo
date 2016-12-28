@@ -1,4 +1,4 @@
-package com.demo.showcase.commons.entity;
+package com.showcase.commons.entity;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;

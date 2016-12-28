@@ -12,6 +12,5 @@
 	<!-- 使用zookeeper广播注册中心暴露发现服务地址 -->
 	<dubbo:registry protocol="zookeeper" address="${zookeeper.address}" register="false"/>
 
-
-	<dubbo:reference id="userService" interface="com.demo.showcase.commons.service.UserService"/>
+	<dubbo:reference id="userService" interface="com.showcase.commons.service.UserService"/>
 </beans>
