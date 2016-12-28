@@ -1,4 +1,4 @@
-package com.demo.showcase.controller;
+package com.showcase.admin.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.demo.showcase.commons.entity.User;
-import com.demo.showcase.commons.service.UserService;
+import com.showcase.commons.entity.User;
+import com.showcase.commons.service.UserService;
 
 /**
  * 用户注册的Controller.

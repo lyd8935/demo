@@ -1,10 +1,10 @@
-package com.demo.showcase.controller;
+package com.showcase.admin.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.demo.showcase.commons.service.UserService;
+import com.showcase.commons.service.UserService;
 
 @Controller
 @RequestMapping("/user")
