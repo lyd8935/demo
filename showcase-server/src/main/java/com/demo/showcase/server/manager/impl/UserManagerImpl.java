@@ -1,4 +1,4 @@
-package com.demo.showcase.manager.impl;
+package com.demo.showcase.server.manager.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -6,8 +6,8 @@ import org.springframework.stereotype.Service;
 import com.demo.showcase.commons.entity.User;
 import com.demo.showcase.commons.option.UserQueryOption;
 import com.demo.showcase.commons.page.DataPage;
-import com.demo.showcase.dao.UserDao;
-import com.demo.showcase.manager.UserManager;
+import com.demo.showcase.server.dao.UserDao;
+import com.demo.showcase.server.manager.UserManager;
 
 @Service
 public class UserManagerImpl implements UserManager {

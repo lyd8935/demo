@@ -1,4 +1,6 @@
-package com.demo.showcase.service.impl;
+package com.demo.showcase.server.service.impl;
+
+import java.time.LocalDateTime;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -9,7 +11,7 @@ import com.demo.showcase.commons.page.DataPage;
 import com.demo.showcase.commons.result.ModelResult;
 import com.demo.showcase.commons.result.PageResult;
 import com.demo.showcase.commons.service.UserService;
-import com.demo.showcase.manager.UserManager;
+import com.demo.showcase.server.manager.UserManager;
 
 @Component("userService")
 public class UserServiceImpl implements UserService {
@@ -27,6 +29,17 @@ public class UserServiceImpl implements UserService {
 	}
 	
 	public PageResult<User> queryPage(UserQueryOption queryOption, DataPage<User> dataPage){
+		return null;
+	}
+
+	@Override
+	public ModelResult<Long> register(User user) {
+		
+		
+		if(null == user.getCreateTime()){
+			user.setCreateTime(LocalDateTime.now());
+		}
+		
 		return null;
 	}
 }
