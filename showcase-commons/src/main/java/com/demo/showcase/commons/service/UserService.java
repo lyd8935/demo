@@ -10,4 +10,7 @@ public interface UserService {
 	 * @param id	主键ID
 	 */
 	public ModelResult<User> queryById(Long id);
+	
+	public ModelResult<Long> register(User user);
+	
 }

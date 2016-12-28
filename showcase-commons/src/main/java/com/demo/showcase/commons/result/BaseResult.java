@@ -2,6 +2,7 @@ package com.demo.showcase.commons.result;
 
 import java.io.Serializable;
 
+@SuppressWarnings("unchecked")
 public abstract class BaseResult implements Serializable {
 	private static final long serialVersionUID = 5263643324233993553L;
 	
@@ -16,7 +17,7 @@ public abstract class BaseResult implements Serializable {
 		this.isSuccess = true;
 		this.code = code;
 		this.msg = msg;
-		return (T)this;
+		return (T) this;
 	}
 
 	public <T extends BaseResult> T withError(String code, String msg){
