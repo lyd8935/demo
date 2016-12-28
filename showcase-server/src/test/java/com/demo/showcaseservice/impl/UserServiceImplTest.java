@@ -19,4 +19,9 @@ public class UserServiceImplTest extends BaseTestCase{
 		ModelResult<User> modelResult = userService.queryById(id);
 		
 	}
+	
+	public static void main(String[] args) {
+		String id = "27281272812728127281272812728127281272812728127281272812728127281272812728127281272812728127281272812728127281";
+		System.out.println(id.hashCode());
+	}
 }
