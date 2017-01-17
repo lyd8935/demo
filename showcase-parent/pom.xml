@@ -12,7 +12,7 @@
 		<java.version>1.8</java.version>
 
 		<spring.version>4.3.4.RELEASE</spring.version>
-		<jackson.version>2.8.5</jackson.version>
+		<jackson.version>2.8.6</jackson.version>
 		
 		<slf4j.version>1.7.22</slf4j.version>
 		<logback.version>1.1.8</logback.version>
@@ -23,6 +23,11 @@
 			<dependency>
 				<groupId>com.showcase</groupId>
 				<artifactId>showcase-commons</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>com.showcase</groupId>
+				<artifactId>showcase-core</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 		
@@ -50,7 +55,7 @@
 			<dependency>
   				<groupId>org.mybatis</groupId>
   				<artifactId>mybatis</artifactId>
-  				<version>3.4.1</version>
+  				<version>3.4.2</version>
 			</dependency>
 			<dependency>
   				<groupId>org.mybatis</groupId>
@@ -61,7 +66,7 @@
 			<dependency>
   				<groupId>org.mybatis</groupId>
   				<artifactId>mybatis-spring</artifactId>
-  				<version>1.3.0</version>
+  				<version>1.3.1</version>
 			</dependency>
 			
 			<dependency>
@@ -79,6 +84,11 @@
 				<groupId>com.alibaba</groupId>
 				<artifactId>druid</artifactId>
 				<version>1.0.27</version>
+			</dependency>
+			<dependency>
+  				<groupId>com.caucho</groupId>
+  				<artifactId>hessian</artifactId>
+  				<version>4.0.7</version>
 			</dependency>
 
 			<dependency>
