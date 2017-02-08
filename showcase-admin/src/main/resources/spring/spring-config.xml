@@ -11,7 +11,9 @@
 		<context:exclude-filter type="annotation" expression="org.springframework.web.bind.annotation.ControllerAdvice" />
 	</context:component-scan>
 
-	<bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">  
+	<bean class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer"
+		<property name="ignoreResourceNotFound" value="true" />
+        <property name="ignoreUnresolvablePlaceholders" value="true" />
         <property name="locations">  
            <list>
               <value>classpath:/properties/*.properties</value>
